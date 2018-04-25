@@ -18,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		159E526E20900C0E0052D216 /* 说明.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "说明.h"; sourceTree = "<group>"; };
+		159E526F20900D950052D216 /* 说明.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "说明.h"; sourceTree = "<group>"; };
+		159E5271209010120052D216 /* 说明.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "说明.h"; sourceTree = "<group>"; };
 		15AF8BE4208F38EA00B1B3B8 /* CommonKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15AF8BE7208F38EA00B1B3B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15AF8BE8208F38EA00B1B3B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +48,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		159E527020900ED90052D216 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		15AF8BDB208F38EA00B1B3B8 = {
 			isa = PBXGroup;
 			children = (
@@ -80,11 +90,11 @@
 		15AF8BFD208F391900B1B3B8 /* CommonKit */ = {
 			isa = PBXGroup;
 			children = (
+				159E527020900ED90052D216 /* Category */,
 				15AF8C0C208F3B5700B1B3B8 /* Custom */,
 				15AF8C0B208F3AFF00B1B3B8 /* Macro */,
 				15AF8C0A208F3A9D00B1B3B8 /* Thirds */,
 				15AF8C09208F3A7700B1B3B8 /* Utils */,
-				15AF8C08208F3A6E00B1B3B8 /* Manager */,
 			);
 			path = CommonKit;
 			sourceTree = "<group>";
@@ -102,16 +112,10 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		15AF8C08208F3A6E00B1B3B8 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
 		15AF8C09208F3A7700B1B3B8 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				159E5271209010120052D216 /* 说明.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -119,6 +123,7 @@
 		15AF8C0A208F3A9D00B1B3B8 /* Thirds */ = {
 			isa = PBXGroup;
 			children = (
+				159E526E20900C0E0052D216 /* 说明.h */,
 			);
 			path = Thirds;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 		15AF8C0C208F3B5700B1B3B8 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				159E526F20900D950052D216 /* 说明.h */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
